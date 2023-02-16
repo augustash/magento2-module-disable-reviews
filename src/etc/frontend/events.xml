@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * August Ash Disable Reviews Module
+ *
+ * @author Peter McWilliams <pmcwilliams@augustash.com>
+ * @license MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="layout_load_before">
+        <observer name="augustash_disable_reviews" instance="Augustash\DisableReviews\Observer\LayoutLoadBeforeObserver" />
+    </event>
+</config>

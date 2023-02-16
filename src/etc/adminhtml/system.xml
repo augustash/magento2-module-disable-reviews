@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * August Ash Disable Reviews Module
+ *
+ * @author Peter McWilliams <pmcwilliams@augustash.com>
+ * @license MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="catalog">
+            <group id="review">
+                <field id="disable_reviews" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0" canRestore="1">
+                    <label>Disable Reviews</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

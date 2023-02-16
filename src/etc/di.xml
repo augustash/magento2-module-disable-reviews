@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * August Ash Disable Reviews Module
+ *
+ * @author Peter McWilliams <pmcwilliams@augustash.com>
+ * @license MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Augustash\DisableReviews\Api\ConfigInterface" type="Augustash\DisableReviews\Model\Config"/>
+</config>

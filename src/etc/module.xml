@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * August Ash Disable Reviews Module
+ *
+ * @author Peter McWilliams <pmcwilliams@augustash.com>
+ * @license MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Augustash_DisableReviews">
+        <sequence>
+            <module name="Magento_Review"/>
+            <module name="Magento_Store"/>
+        </sequence>
+    </module>
+</config>
